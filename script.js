@@ -4,7 +4,7 @@ let correctAnswers = 0
 showQuestion()
 
 // Events
-document.querySelector('.scoreArea button').addEventListener('click', resetEvent())
+document.querySelector('.scoreArea button').addEventListener('click', resetEvent)
 
 //functions
 function showQuestion() {
